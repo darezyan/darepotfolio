@@ -44,7 +44,6 @@ export default function Home() {
         <Work />
         <Reviews/>
         <About />
-        <Blog />
         <Contact />
         <Footer />
       </main>
