@@ -4,7 +4,7 @@ import AnimatedBody from "../animations/AnimatedBody";
 
 const Footer = () => {
   const year = new Date().getFullYear();
-  
+
   return (
     <motion.section
       className=" h-[15vh] w-full  items-center justify-center border-t-[3px] border-[#e4ded7]/30 bg-[#0E1016] pt-10  font-bold uppercase md:h-[20vh] md:py-16 lg:h-[10vh] lg:pt-6 lg:pb-0"
@@ -18,15 +18,9 @@ const Footer = () => {
             text={"Design & Development by"}
             className={"m-0 p-0"}
           />
-          <Link
-            href="https://github.com/victorcodess"
-            target="_blank"
-            aria-label="Victor's GitHub Profile"
-          >
-            <span className="underline underline-offset-2 hover:no-underline">
-              <AnimatedBody text={"Victor Williams"} className={"m-0 p-0"} />
-            </span>{" "}
-          </Link>
+          <span className="underline underline-offset-2 hover:no-underline">
+            <AnimatedBody text={"Dare Favour"} className={"m-0 p-0"} />
+          </span>{" "}
         </div>
       </motion.div>
     </motion.section>

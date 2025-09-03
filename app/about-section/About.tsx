@@ -41,7 +41,7 @@ const About = () => {
             />
             <AnimatedBody
               text={
-                "When I'm not coding, you can find me binge-watching anime, hanging out with friends, cheering on Manchester United, or discovering new music in my favorite genres like RnB, UK Drill, and Chill Rap."
+                "When I'm not coding, you can find me binge-watching anime, hanging out with friends, cheering on Arsenal or The Denver Nuggets, or discovering new music."
               }
             />
             <AnimatedBody

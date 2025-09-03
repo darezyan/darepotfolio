@@ -4,7 +4,7 @@ import { monaSans } from "../fonts/monaSans";
 import { motion } from "framer-motion";
 import { imageAnimation, bodyAnimation } from "../animations/animations";
 import AnimatedWords from "../animations/AnimatedWords";
-import profile from "../../public/profile.webp";
+import profile from "../../public/profile.jpeg";
 
 const Hero = () => {
   return (
@@ -17,48 +17,23 @@ const Hero = () => {
       <motion.div className="absolute left-0 top-0 right-0 bottom-0 h-full w-full bg-[#0E1016] mix-blend-color"></motion.div>
 
       <div className="absolute top-10 flex justify-between sm:w-[90%] lg:max-w-[1440px]">
-        <div>
-          <Link
-            href="https://cal.com/victorwilliams/30min"
-            target="_blank"
-            aria-label="BOOK A CALL"
-          >
-            <motion.button
-              className="hidden rounded-md border-2 border-[#e4ded7] py-2 px-4 text-[14px] font-semibold text-[#e4ded7] sm:block  md:text-[16px] lg:block"
-              variants={bodyAnimation}
-            >
-              BOOK A CALL
-            </motion.button>
-          </Link>
-        </div>
+        <div></div>
 
         <div className="flex gap-10 text-[#e4ded7] sm:gap-12 md:gap-14 lg:gap-14">
           <Link
-            href="https://github.com/victorcodess"
+            href="https://api.whatsapp.com/send/?phone=2349061302398&text&type=phone_number&app_absent=0"
             target="_blank"
-            aria-label="View GitHub Profile"
+            aria-label="Chat on Whatsapp"
           >
             <motion.p
               className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
               variants={bodyAnimation}
             >
-              GH
+              WA
             </motion.p>
           </Link>
           <Link
-            href="https://www.linkedin.com/in/victor-williams-chukwudi/"
-            target="_blank"
-            aria-label="View LinkedIn Profile"
-          >
-            <motion.p
-              className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
-              variants={bodyAnimation}
-            >
-              LN
-            </motion.p>
-          </Link>
-          <Link
-            href="https://twitter.com/victorwill__"
+            href="https://x.com/darezyan?s=21&t=_UBy6Ygc3RMldVBrE7Vl9A"
             target="_blank"
             aria-label="View Twitter Profile"
           >
@@ -69,18 +44,6 @@ const Hero = () => {
               TW
             </motion.p>
           </Link>
-          <Link
-            href="https://contra.com/victorwilliams"
-            target="_blank"
-            aria-label="View Contra Profile"
-          >
-            <motion.p
-              className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
-              variants={bodyAnimation}
-            >
-              CO
-            </motion.p>
-          </Link>
         </div>
       </div>
 
@@ -89,7 +52,7 @@ const Hero = () => {
           className={`relative flex flex-col items-center justify-center ${monaSans.className}`}
         >
           <AnimatedWords
-            title="VICTOR WILLIAMS"
+            title="DARE FAVOUR"
             style="inline-block overflow-hidden pt-1 -mr-4 sm:-mr-5 md:-mr-7 lg:-mr-9 -mb-1 sm:-mb-2 md:-mb-3 lg:-mb-4"
           />
           <motion.div
@@ -102,7 +65,7 @@ const Hero = () => {
               alt="Victor's headshot"
               data-blobity-tooltip="Giga Chad"
               data-blobity-invert="false"
-              className=" w-[150px] rounded-[16px] grayscale hover:grayscale-0 md:w-[200px] md:rounded-[32px] lg:w-[245px]"
+              className=" h-[300px] w-[150px] rounded-[16px] grayscale hover:grayscale-0 md:w-[200px] md:rounded-[32px] lg:w-[245px]"
             />
           </motion.div>
         </div>
