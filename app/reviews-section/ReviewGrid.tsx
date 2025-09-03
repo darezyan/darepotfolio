@@ -38,27 +38,7 @@ const Reviews = () => {
         })}
       </motion.div>
 
-      <motion.a
-        initial={{ opacity: 0, y: 20 }}
-        whileInView={{
-          opacity: 1,
-          y: 0,
-          transition: {
-            duration: 0.7,
-            delay: 0.1,
-            ease: [0.44, 0, 0.22, 0.99],
-          },
-        }}
-        viewport={{
-          amount: "some",
-          once: true,
-        }}
-        href="https://contra.com/victorwilliams"
-        target="_blank"
-        className="mt-10 mb-5 sm:mb-0 sm:mt-20"
-      >
-        <Image src={hireMe} alt={"hire me"} className="w-full" />
-      </motion.a>
+     
 
       {/* <motion.div
         initial={{ opacity: 0, y: 20 }}
